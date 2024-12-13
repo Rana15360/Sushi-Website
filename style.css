@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+li {
+    list-style: none;
+}
+span {
+    color: lightsalmon;
+}
+.btn {
+    width: 70px;
+    height: 35px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: lightsalmon;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.btn:hover,
+a:hover {
+    color: orangered;
+}
+.main {
+    width: 100%;
+    height: 600px;
+}
+header {
+    width: 100%;
+    height: 45px;
+    margin: 10px 10px 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+.logo img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    top: 10px;
+}
+.logo h1 {
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+    margin-right: 30px;
+}
+nav ul li a {
+    font-size: 1.7rem;
+    border-bottom:3px solid salmon;
+    border-radius: 0.3rem;
+}
+.home-content {
+    display: flex;
+    justify-content: space-around;
+}
+.home-text {
+    position: relative;
+    top: 150px;
+}
+.home-text h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.home-text h1 img {
+    width: 60px;
+    border-radius: 40%;
+    
+}
+.home-text p{
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+.home-text .btn {
+    width: 120px;
+}
+.home_img {
+    width: 400px;
+}
+.home_img img {
+    width: 100%;
+    height: 80%;
+}
+.about {
+    width: 100%;
+    height: 600px;
+  }
+  .about h1 {
+    margin-top: 30px;
+  }
+  .about-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .about-img {
+    border-right: 2px solid salmon;
+  }
+  .about-img img {
+    width: 350px;
+  }
+  .heading {
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .heading h1 {
+    border-bottom: 3px solid salmon;
+    border-radius: 0.3rem;
+  }
+  .about-text h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .about-text h1 img {
+    width: 80px;
+    border-radius: 30%;
+    margin-bottom: 0px;
+  }
+  
+  .about-text p {
+    margin-bottom: 10px;
+  }
+  .about-text .btn {
+    width: 140px;
+  }
+  .popular {
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+  }
+  .sushi-boxs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .sushi-box {
+    width: 300px;
+    height: 410px;
+    border: 2px solid salmon;
+    border-radius: 0.7rem;
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2),
+    0 10px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.1s ease;
+}
+.sushi-img {
+  width: 100%;
+  height: 60%;
+}
+.sushi-box img {
+    width: 60%;
+    margin: 20px 60px;
+}
+.sushi-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.sushi-text h1 {
+    font-size: 1.7rem;
+}
+.sushi-text span {
+    font-size: 1.1rem;
+}
+.sushi-text h2 {
+    font-size: 1.3rem;
+}
+.sushi-buy {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.sushi-buy .btn {
+    width: 130px;
+}
+.sushi-buy h1 {
+    width: 25px;
+    height: 25px;
+    border: 3px solid lightcoral;
+    border-radius: 50%;
+    padding-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    cursor: pointer;
+}
+.sushi-buy h1:hover {
+  background: white;
+  color: lightcoral;
+}
+footer {
+    background-color: white;
+    padding: 2px;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+}
+.footer-contact h3 {
+    margin: 5px;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+}
+.footer-contact h3 img {
+    width: 23px;
+    border-radius: 30%;
+    align-items: center;
+}
+.footer-contact .footer_links {
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(248, 247, 247);
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+.footer-contact:hover {
+    cursor: pointer;
+}
+.footer-contact h3:hover {
+    cursor: pointer;
+    color: orangered;
+}
+.footer_links a img {
+    width: 20px;
+}
+.footer_links {
+    display: none;
+}
+.footer-contact.active .footer_links {
+    display: flex;
+    border: 3px solid salmon;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2),
+    0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
